@@ -48,7 +48,3 @@ variable "key_name" {
   description = "Base key name to generate unique keys."
   type        = string
 }
-
-variable "splunk_license_url" {
-  type        = string
-}
