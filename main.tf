@@ -104,6 +104,7 @@ resource "aws_instance" "splunk_cluster" {
     RunQuotaHours = var.quotahours
     Category      = var.category
     PlanStartDate = var.planstartdate
+    hoursperday   = var.hoursperday
   }
 }
 
